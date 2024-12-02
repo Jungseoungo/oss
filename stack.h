@@ -2,6 +2,7 @@
 #define STACK_H
 #include <stdbool.h> 
 
+printf("hello world");
 typedef int Item;
 typedef struct stack {
 Item * contents;
