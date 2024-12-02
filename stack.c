@@ -9,6 +9,7 @@ Stack * create_stack(int initial_size)
 	s->contents = (int *)malloc(initial_size*sizeof(Item));
 	s->top=0;
 	s->size=initial_size;
+	 printf("Hello, World!\n"); // 코드 추가
 	return s;
 }
 
