@@ -2,8 +2,7 @@
 #define STACK_H
 #include <stdbool.h> 
 
-int Changedval;
-
+typedef int changed_line;
 typedef int Item;
 typedef struct stack {
 Item * contents;
