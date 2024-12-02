@@ -3,7 +3,7 @@
 #include "stack.h"
 #include <string.h>
 
-int global_var = 0; //추가
+int global_var = 0;
 
 Stack * create_stack(int initial_size)
 {
