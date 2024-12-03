@@ -1,5 +1,6 @@
 #ifndef STACK_H
 #define STACK_H
+#define GLOBAL 80
 #include <stdbool.h> 
 
 typedef int Item;
