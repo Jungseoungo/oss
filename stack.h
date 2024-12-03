@@ -11,7 +11,7 @@ int size;
 
 Stack * create_stack(int initial_size);
 void make_empty(Stack *s);
-bool is_empty(Stack *s);
+bool is_empty(Stack *s); // Returns true if the stack is empty
 bool is_full(Stack *s);
 void push(Stack *s, Item i);
 Item pop(Stack *s);
