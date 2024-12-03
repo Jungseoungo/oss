@@ -29,6 +29,7 @@ bool is_full(Stack * stack)
 
 void push(Stack * stack, Item i)
 {
+	printf("Push called with value: %d\n", i);
 	if (stack->top>=stack->size-1)
 		reallocate(stack);
 	stack->contents[stack->top++] = i;
