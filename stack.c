@@ -3,6 +3,13 @@
 #include "stack.h"
 #include <string.h>
 
+
+void print_number(int x)//변수x를 프린트하는 함수 추가
+{
+	printf("%d", x);
+}
+
+
 Stack * create_stack(int initial_size)
 {
 	Stack * s = (Stack *)malloc(sizeof(Stack));
