@@ -3,6 +3,7 @@
 #include <stdbool.h> 
 
 typedef int Item;
+//스택 구조체 선언
 typedef struct stack {
 Item * contents;
 int top;
