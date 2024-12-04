@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "stack.h"
 #include <string.h>
-
+//스택 구조체
 Stack * create_stack(int initial_size)
 {
 	Stack * s = (Stack *)malloc(sizeof(Stack));
