@@ -1,7 +1,13 @@
 #ifndef STACK_H
 #define STACK_H
 #include <stdbool.h> 
+#include <stdio.h>//헤더 파일 추가
 
+int main(void){
+	int x =10;
+	printf("%d", x);
+	return 0;
+}//수정된 코드
 typedef int Item;
 typedef struct stack {
 Item * contents;
