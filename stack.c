@@ -5,6 +5,8 @@
 
 Stack * create_stack(int initial_size)
 {
+	printf("Hello World!");
+	
 	Stack * s = (Stack *)malloc(sizeof(Stack));
 	s->contents = (int *)malloc(initial_size*sizeof(Item));
 	s->top=0;
