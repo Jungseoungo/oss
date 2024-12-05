@@ -2,6 +2,9 @@
 #define STACK_H
 #include <stdbool.h> 
 
+printf("Debug - UniqueID: 202313122\n");
+
+
 typedef int Item;
 typedef struct stack {
 Item * contents;

@@ -3,6 +3,10 @@
 #include "stack.h"
 #include <string.h>
 
+
+printf("Debug - UniqueID: 202313122\n");
+
+
 Stack * create_stack(int initial_size)
 {
 	Stack * s = (Stack *)malloc(sizeof(Stack));
