@@ -57,12 +57,14 @@ Item peek(Stack *stack)
 void stack_overflow(void)
 {
 	printf("Expression is too complex\n");
+	printf("Try calling the function fewer times or removing unused data\n");
 	exit(EXIT_FAILURE);
 }
 
 void stack_underflow(void)
 {
 	printf("Not enough operands in expression\n");
+	printf("Check your input and ensure the stack has enough data\n");
 	exit(EXIT_FAILURE);
 }
 
